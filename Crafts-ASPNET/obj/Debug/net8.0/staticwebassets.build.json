@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yFCLbXev0xDWZXaxr9msPXn907w6WWRGKdGh6dB+AbY=",
+  "Hash": "ZqjpQjLcHtZiQ39MbxVZAb45PLgdfeBOP8zH3Kths6E=",
   "Source": "Crafts-ASPNET",
   "BasePath": "_content/Crafts-ASPNET",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\two4o\\Desktop\\C# Development\\Crafts-ASPNET\\Crafts-ASPNET\\wwwroot\\data\\products.json",
+      "SourceId": "Crafts-ASPNET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\two4o\\Desktop\\C# Development\\Crafts-ASPNET\\Crafts-ASPNET\\wwwroot\\",
+      "BasePath": "_content/Crafts-ASPNET",
+      "RelativePath": "data/products.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\products.json"
     },
     {
       "Identity": "C:\\Users\\two4o\\Desktop\\C# Development\\Crafts-ASPNET\\Crafts-ASPNET\\wwwroot\\favicon.ico",

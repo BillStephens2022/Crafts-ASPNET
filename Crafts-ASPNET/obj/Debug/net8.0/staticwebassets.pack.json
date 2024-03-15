@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\two4o\\Desktop\\C# Development\\Crafts-ASPNET\\Crafts-ASPNET\\wwwroot\\data\\products.json",
+      "PackagePath": "staticwebassets\\data\\products.json"
+    },
+    {
       "Id": "C:\\Users\\two4o\\Desktop\\C# Development\\Crafts-ASPNET\\Crafts-ASPNET\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

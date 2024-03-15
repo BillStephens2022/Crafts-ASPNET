@@ -28,3 +28,4 @@ C:\Users\two4o\Desktop\C# Development\Crafts-ASPNET\Crafts-ASPNET\obj\Debug\net8
 C:\Users\two4o\Desktop\C# Development\Crafts-ASPNET\Crafts-ASPNET\obj\Debug\net8.0\Crafts-ASPNET.pdb
 C:\Users\two4o\Desktop\C# Development\Crafts-ASPNET\Crafts-ASPNET\obj\Debug\net8.0\Crafts-ASPNET.genruntimeconfig.cache
 C:\Users\two4o\Desktop\C# Development\Crafts-ASPNET\Crafts-ASPNET\obj\Debug\net8.0\ref\Crafts-ASPNET.dll
+C:\Users\two4o\Desktop\C# Development\Crafts-ASPNET\Crafts-ASPNET\obj\Debug\net8.0\Crafts-ASPNET.sourcelink.json
