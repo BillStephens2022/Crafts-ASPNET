@@ -1,3 +1,5 @@
+using Crafts_ASPNET.Services;
+
 namespace Crafts_ASPNET
 {
     public class Program
@@ -8,6 +10,7 @@ namespace Crafts_ASPNET
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+            builder.Services.AddScoped<JsonFileProductService>();
 
             var app = builder.Build();
 
