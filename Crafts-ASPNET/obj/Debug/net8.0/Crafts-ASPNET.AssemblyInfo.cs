@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Crafts-ASPNET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+139f8f1bb22bb784c40dc9d98585f35c5304b988")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9ad072638451f2ebf5d5baa7f69b25e9a1c3d03")]
 [assembly: System.Reflection.AssemblyProductAttribute("Crafts-ASPNET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Crafts-ASPNET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

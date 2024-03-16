@@ -1,4 +1,5 @@
 using Crafts_ASPNET.Services;
+using Microsoft.AspNetCore.Builder;
 
 namespace Crafts_ASPNET
 {
@@ -12,7 +13,10 @@ namespace Crafts_ASPNET
             builder.Services.AddRazorPages();
             builder.Services.AddScoped<JsonFileProductService>();
 
-            var app = builder.Build();
+			// Add MVC services.
+			builder.Services.AddControllersWithViews();
+
+			var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -29,9 +33,14 @@ namespace Crafts_ASPNET
 
             app.UseAuthorization();
 
-            app.MapRazorPages();
+			// Map controllers.
+			app.UseEndpoints(endpoints =>
+			{
+				endpoints.MapControllers();
+				endpoints.MapRazorPages();
+			});
 
-            app.Run();
+			app.Run();
         }
     }
 }
