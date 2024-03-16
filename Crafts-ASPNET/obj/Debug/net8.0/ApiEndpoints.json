@@ -18,5 +18,26 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Crafts_ASPNET.Controllers.ProductsController",
+    "Method": "Get",
+    "RelativePath": "Products/Rate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Rating",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
