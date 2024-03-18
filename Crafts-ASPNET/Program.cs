@@ -12,6 +12,7 @@ namespace Crafts_ASPNET
             // Add services to the container.
             builder.Services.AddRazorPages();
             builder.Services.AddScoped<JsonFileProductService>();
+            builder.Services.AddServerSideBlazor();
 
 			// Add MVC services.
 			builder.Services.AddControllersWithViews();
@@ -38,6 +39,7 @@ namespace Crafts_ASPNET
 			{
 				endpoints.MapControllers();
 				endpoints.MapRazorPages();
+                endpoints.MapBlazorHub();
 			});
 
 			app.Run();
